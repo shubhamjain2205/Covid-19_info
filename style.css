@@ -1,0 +1,54 @@
+body{
+    background: rgba(122, 122, 122, 0.7) url(/bg.jpg) ;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+
+nav {
+    display: flex;
+    padding: 0 23px;
+    background-color: black;
+    border-radius: 8px;
+    }
+    
+.item {
+    padding: 8px 10px;
+    list-style: none;
+    }
+
+.item a {
+        color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: inherit;
+    display: block;
+    font-size: 16px;
+    }
+
+.container {
+        position: inherit;
+        padding: 46px;
+        margin: 12px auto;
+        max-width: 69%;
+        color: rgb(255, 255, 255);
+        border-radius: 12px; 
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+    }
+
+.item a:hover {
+        color: rgb(170, 170, 170);
+    }
+
+h1 {
+        text-align: center;
+    }
+
+h1,h2,h3 {
+        padding: 23px 0;
+    }
+        
+h3{
+        padding:10px 0;
+    }
